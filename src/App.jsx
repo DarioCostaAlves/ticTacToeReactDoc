@@ -1,9 +1,11 @@
 import { useState } from "react";
+import Square from "./components/Square";
+import Board from "./components/Board";
 
 function App() {
   return (
     <>
-      <h1>Ola teste ehehh</h1>
+      <Board></Board>
     </>
   );
 }
