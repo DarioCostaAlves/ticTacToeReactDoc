@@ -3,7 +3,7 @@ import { useState } from "react";
 
 export default function Board() {
   const [squares, setSquares] = useState(Array(9).fill(null));
-
+  //test
   function handleClick(i) {
     const nextSquares = squares.slice();
     nextSquares[i] = "X";
